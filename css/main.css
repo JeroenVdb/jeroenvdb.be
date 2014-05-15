@@ -3,27 +3,15 @@ body {
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 768px) {
-  /* line 1, ../sass/base/_base.scss */
-  body {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-}
 
 /* line 1, ../sass/layout/_layout.scss */
 .container {
-  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
 }
-@media screen and (min-width: 768px) {
-  /* line 1, ../sass/layout/_layout.scss */
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 984px) {
-  /* line 1, ../sass/layout/_layout.scss */
-  .container {
-    width: 984px;
-  }
+
+/* line 1, ../sass/modules/_identity.scss */
+.identity {
+  border-bottom: 1px solid #000;
 }

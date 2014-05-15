@@ -1,10 +1,8 @@
 .container {
 
-	width: 300px;
-	@include mq-min($bp1) {
-		width: $bp1;
-	}
-	@include mq-min($bp2) {
-		width: $bp2;
-	}
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 960px;
+
 }
