@@ -7,14 +7,35 @@ title: Jeroen Van den Berghe - Front-end developer
 	<div class="container">
 		<h2>Social profiles</h2>
 		<ul class="social-tiles">
-			<li class="tile tile--facebook">
-				<a href="">Facebook</a>
+			<li>
+				<a href="#facebook" class="tile tile--facebook">
+					<h3 class="tile__title">Facebook</h3>
+					<p class="title__description"></p>
+				</a>
 			</li>
-			<li class="tile tile--twitter">
-				<a href="">Twitter</a>
+			<li>
+				<a href="#twitter" class="tile tile--twitter">
+					<h3 class="tile__title">Twitter</h3>
+					<p class="title__description">Web &amp; workrelated tweets.</p>
+				</a>
 			</li>
-			<li class="tile tile--foursquare">
-				<a href="">Foursquare</a>
+			<li>
+				<a href="#foursquare" class="tile tile--foursquare">
+					<h3 class="tile__title">Foursquare</h3>
+					<p class="title__description"></p>
+				</a>
+			</li>
+			<li>
+				<a href="#foursquare" class="tile tile--linkedin">
+					<h3 class="tile__title">LinkedIn</h3>
+					<p class="title__description"></p>
+				</a>
+			</li>
+			<li>
+				<a href="#foursquare" class="tile tile--letterbox">
+					<h3 class="tile__title">Letterboxd</h3>
+					<p class="title__description">Follow my movie addiction.</p>
+				</a>
 			</li>
 		</ul><!-- /.social-tiles -->
 	</div><!-- /.container -->
@@ -24,11 +45,17 @@ title: Jeroen Van den Berghe - Front-end developer
 	<div class="container">
 		<h2>Webdevelopment</h2>
 		<ul class="social-tiles">
-			<li class="tile tile--facebook">
-				<a href="">GitHub</a>
+			<li>
+				<a href="#github" class="tile tile--github">
+					<h3 class="tile__title">GitHub</h3>
+					<p class="title__description"></p>
+				</a>
 			</li>
-			<li class="tile tile--twitter">
-				<a href="">StackOverflow</a>
+			<li>
+				<a href="#stackoverflow" class="tile tile--stackoverflow">
+					<h3 class="tile__title">StackOverflow</h3>
+					<p class="title__description"></p>
+				</a>
 			</li>
 		</ul><!-- /.social-tiles -->
 	</div><!-- /.container -->
@@ -36,32 +63,24 @@ title: Jeroen Van den Berghe - Front-end developer
 
 <div class="row">
 	<div class="container">
-		<h2>Portfolio</h2>
+		<h2>Portfolio &amp; projects</h2>
 		<ul class="portfolio-tiles">
 			<li class="tile tile--landlordhelper">
+				<figure class="tile__image">
+					<img src="http://placehold.it/140x100" alt="" />
+				</figure>
 				<h3 class="tile__title">Landlord Helper</h3>
 				<p class="tile__description"></p>
 				<ul class="tile__tags">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Bootstrap</li>
-					<li>Foursquare API</li>
-					<li>PHP</li>
-					<li>Google Charts</li>
+					<li class="tile__tag">HTML5</li>
+					<li class="tile__tag">Bootstrap</li>
+					<li class="tile__tag">Foursquare API</li>
+					<li class="tile__tag">Google Charts</li>
+					<li class="tile__tag">PHP</li>
+					<li class="tile__tag">Cronjobs</li>
 				</ul>
-				<button type="button" class="tile__goto">Visit project</button>
+				<a href="#link" class="tile__goto">Visit project</a>
 			</li>
-			<li class="tile tile--landlordhelper">
-				<h3 class="tile__title">Jeugdhuis De Faar</h3>
-				<p class="tile__description"></p>
-				<ul class="tile__tags">
-					<li>HTML</li>
-					<li>SASS</li>
-					<li>Responsive</li>
-					<li>Google Maps API</li>
-				</ul>
-				<button type="button" class="tile__goto">Visit project</button>
-			</li>
-		</ul><!-- /.social-tiles -->
+		</ul><!-- /.portfolio-tiles -->
 	</div><!-- /.container -->
 </div><!-- /.row -->
