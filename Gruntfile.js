@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 				dest: '<%= path.jsDist %>/main.js'
 			}
 		},
-	
+
 		/**
 		* Uglify: Minify files with UglifyJS
 		*/
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 				dest: '<%= path.jsDist %>/main.min.js'
 			}
 		},
-		
+
 		/*
 		** Default SASS Config
 		*/
@@ -145,7 +145,7 @@ module.exports = function(grunt) {
 		watch: { // watch certain files and when the change, do something!
 			// compass: {
 			// 	files: ['<%= path.sass %>/*.scss','<%= path.sass %>/**/*.scss'],
-			// 	tasks: ['compass:dev', 'bless']
+			// 	tasks: ['sass:dist', 'bless']
 			// },
 			js: {
 				files: ['<%= path.jsSrc %>/main.js', '<%= path.jsSrc %>/3rdparty/*.js', '<%= path.jsSrc %>/*.js'],
@@ -153,7 +153,7 @@ module.exports = function(grunt) {
 			},
 			sass: {
 				files: ['<%= path.sass %>/*.scss','<%= path.sass %>/**/*.scss'],
-				tasks: ['compass:dev', 'bless'] // or 'sass:dist'
+				tasks: ['sass:dist', 'bless'] // or 'sass:dist'
 			}
 		}
 	});
@@ -170,7 +170,7 @@ module.exports = function(grunt) {
 		'concat:dist',
 		'uglify:build',
 		// sass specific tasks
-		'compass:dev', // or 'sass:dist'
+		'sass:dist', // or 'sass:dist'
 		// watch
 		'watch'
 	]);
