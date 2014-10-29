@@ -2,3 +2,16 @@
 $bp0: 0;
 $bp1: 768px;
 $bp2: 984px;
+
+// Basic colors
+$black: #000;
+$lightgrey: lightgrey;
+
+// Social buttons
+$social-list: (
+	email		#db4a39 #ffffff #e57f73,
+	facebook	#3b5998 #ffffff #8b9dc3,
+	twitter		#00acee #ffffff #2ac4ff,
+	linkedin	#0e76a8 #ffffff #1193d2,
+	letterboxd	#456 #fff #789
+);

@@ -1,0 +1,45 @@
+.social-button {
+  display: inline-block;
+  margin: 1em 1em 0 0;
+  padding: 0 1em;
+  border-radius: 4px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  @each $s-name in $social-list {
+    &.#{nth($s-name, 1)} {
+				background-color: nth($s-name, 2);
+          border: 1px solid nth($s-name, 2);
+				color: nth($s-name, 3);
+			}
+  }
+
+}
+
+.social-button__title {
+  line-height: 3em;
+  font-weight: bold;
+}
+
+.social-button__subtitle {
+  display: inline-block;
+  padding-left: 1em;
+  margin-left: 1em;
+  line-height: 3em;
+
+  @each $s-name in $social-list {
+    .#{nth($s-name, 1)} & {
+          border-left: 1px solid nth($s-name, 4);
+			}
+  }
+}
+
+.ruler {
+  border: 0;
+  border-bottom: 1px solid $lightgrey;
+  max-width: 600px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
