@@ -1,8 +1,3 @@
-// Breakpoints
-$bp0: 0;
-$bp1: 768px;
-$bp2: 984px;
-
 // Basic colors
 $black: #000;
 $lightgrey: lightgrey;
@@ -13,5 +8,8 @@ $social-list: (
 	facebook	#3b5998 #ffffff #8b9dc3,
 	twitter		#00acee #ffffff #2ac4ff,
 	linkedin	#0e76a8 #ffffff #1193d2,
-	letterboxd	#456 #fff #789
+	letterboxd	#456 #fff #789,
+	github      #000000 #ffffff #3f3f3f,
+	codepen     #4D4D4D #ffffff #606060,
+	stackoverflow #fe7a15 #000 #fea059
 );
