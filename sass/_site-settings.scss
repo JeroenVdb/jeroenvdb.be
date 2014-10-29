@@ -1,31 +1,15 @@
-// Breakpoints
-$bp0: 0;
-$bp1: 768px;
-$bp2: 984px;
+// Basic colors
+$black: #000;
+$lightgrey: lightgrey;
 
-// Tile colors
-$tile--email: #0a88ff !default;
-$tile--facebook: #306199 !default;
-$tile--tumblr: #32506d !default;
-$tile--linkedin: #007bb6 !default;
-$tile--twitter: #26c4f1 !default;
-$tile--googleplus: #e93f2e !default;
-$tile--reddit: #8bbbe3 !default;
-$tile--youtube: #df1c31 !default;
-$tile--pinterest: #b81621 !default;
-$tile--pocket: #ED4054 !default;
-$tile--github: #444 !default;
-
-$tiles-list: (
-	email			$tile--email,
-	facebook		$tile--facebook,
-	tumblr			$tile--tumblr,
-	linkedin		$tile--linkedin,
-	twitter			$tile--twitter,
-	googleplus		$tile--googleplus,
-	youtube			$tile--youtube,
-	reddit			$tile--reddit,
-	pinterest		$tile--pinterest,
-	pocket			$tile--pocket,
-	github			$tile--github
+// Social buttons
+$social-list: (
+	email		#db4a39 #ffffff #e57f73,
+	facebook	#3b5998 #ffffff #8b9dc3,
+	twitter		#00acee #ffffff #2ac4ff,
+	linkedin	#0e76a8 #ffffff #1193d2,
+	letterboxd	#456 #fff #789,
+	github      #000000 #ffffff #3f3f3f,
+	codepen     #4D4D4D #ffffff #606060,
+	stackoverflow #fe7a15 #000 #fea059
 );
