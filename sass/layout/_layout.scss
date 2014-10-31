@@ -1,6 +1,12 @@
 .container {
-
 	text-align: center;
 	margin: 3em 0.5em;
+}
 
+.ruler {
+	border: 0;
+	border-bottom: 1px solid $lightgrey;
+	max-width: 600px;
+	margin-top: 5em;
+	margin-bottom: 4em;
 }
