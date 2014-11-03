@@ -16,6 +16,7 @@
     "grunt-bg-shell": "*",
     "grunt-imageoptim": "*",
     "grunt-contrib-copy": "*",
-    "grunt-bless": "*"
+    "grunt-bless": "*",
+    "grunt-cli": "*"
   }
 }
