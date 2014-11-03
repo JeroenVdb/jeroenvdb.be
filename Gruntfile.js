@@ -96,6 +96,11 @@ module.exports = function(grunt) {
 					src: '.'
 					// excludes are configured in _config.yml
 				}
+			},
+			prod: {                             // Target
+				options: {                        // Target options
+					dest: './_site'
+				}
 			}
 		},
 		bgShell: {
@@ -173,6 +178,17 @@ module.exports = function(grunt) {
 		'sass:dist', // or 'sass:dist'
 		// watch
 		'watch'
+	]);
+
+	// Production build
+	grunt.registerTask('prod', [
+		'jekyll:prod',
+		// js specific tasks
+		'concat:dist',
+		'uglify:build',
+		// sass specific tasks
+		'sass:dist', // or 'sass:dist'
+		'bless'
 	]);
 
 };
