@@ -182,13 +182,14 @@ module.exports = function(grunt) {
 
 	// Production build
 	grunt.registerTask('prod', [
-		'jekyll:prod',
 		// js specific tasks
 		'concat:dist',
 		'uglify:build',
 		// sass specific tasks
 		'sass:dist', // or 'sass:dist'
-		'bless'
+		'bless',
+		// Jekyll
+		'jekyll:prod'
 	]);
 
 };
